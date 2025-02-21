@@ -1,0 +1,91 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f1e3;
+  color: #4a4a4a;
+}
+
+.container {
+  background: #fffcf2;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #6d6875;
+}
+
+.project-input, .task-input {
+  margin: 1rem 0;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #b5838d;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 250px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #b5838d;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6d6875;
+}
+
+.project {
+  background: #e5989b;
+  color: white;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.project h2 {
+  margin: 0;
+}
+
+.task-section {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.task.not-done {
+  background-color: #ffadad;
+}
+
+.task.in-progress {
+  background-color: #ffd6a5;
+}
+
+.task.done {
+  background-color: #9ae3c9;
+}
